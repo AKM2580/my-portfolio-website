@@ -14,22 +14,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "lucide-react": "^0.511.0"
   },
   "engines": {
     "node": "18.x"
   }
 }
-
-"dependencies": {
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-scripts": "^5.0.1",
-  "lucide-react": "^0.511.0"
-},
-
-"scripts": {
-  "start": "react-scripts start",
-  "build": "node ./node_modules/react-scripts/scripts/build.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
