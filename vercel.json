@@ -4,6 +4,12 @@
   ],
   "headers": [
     {
+      "source": "/static/js/(.*)\\.js$",
+      "headers": [
+        { "key": "Content-Type", "value": "application/javascript" }
+      ]
+    },
+    {
       "source": "/(.*)\\.js$",
       "headers": [
         { "key": "Content-Type", "value": "application/javascript" }
